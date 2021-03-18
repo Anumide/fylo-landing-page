@@ -157,6 +157,7 @@ header{
   margin: 5em auto;
   align-items: center;
   justify-items: center;
+  margin: 12% 3%;
 }
 
 .third_section .img_grid img{
@@ -180,7 +181,7 @@ header{
 }
 
 .third_section .text_grid span{
-  width: 30%;
+  width: 25%;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid hsl(176, 68%, 64%);
@@ -190,13 +191,50 @@ header{
 .third_section .text_grid a{
   color: hsl(176, 68%, 64%);
   text-decoration: none;
-
+  width: 100%;
+  font-size: .8em;
+  margin-right: .7%;
 }
 
 .third_section .text_grid span img{
   width: 11%;
 }
 
+      /* designs for the forth section */
+
 .forth_section{
   position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: 15% auto;
+  width: 92%
+}
+
+.forth_section > img{
+  position: absolute;
+}
+
+.testimonies{
+  width: 35%;
+  background: var(--emailBlue);
+  padding: 3% 2% 2% 2%;
+  margin: 1%;
+  text-align: left;
+}
+
+
+.testimonies span{
+  width: 60%;
+  margin-top: 2%;
+}
+
+.testimonies span img{
+  width: 10%;
+  border-radius: 50%;
+  float: left;
+  margin: 3% 2% 0% 0%;
+}
+
+.testimonies span div{
+  text-align: left;
 }
